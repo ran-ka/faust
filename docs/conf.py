@@ -25,6 +25,7 @@ globals().update(conf.build_config(
         'typehints',
         'faustdocs',
     ],
+    install_requires=['sphinx_celery'],
     extra_intersphinx_mapping={
         'aiohttp': ('https://aiohttp.readthedocs.io/en/stable/', None),
         'aiokafka': ('https://aiokafka.readthedocs.io/en/stable/', None),
